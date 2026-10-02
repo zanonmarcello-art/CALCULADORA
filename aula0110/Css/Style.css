@@ -1,0 +1,65 @@
+ body {
+            background-color: #4A5142; /* Verde musgo clássico do CS */
+            font-family: "Courier New", Courier, monospace;
+            color: #FFB000; /* Amarelo/laranja do HUD */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .cs-menu {
+            border: 2px solid #5A6352;
+            background-color: rgba(30, 35, 25, 0.9);
+            padding: 20px;
+            width: 300px;
+            box-shadow: 5px 5px 0px #2E3329;
+        }
+
+        .cs-menu h1 {
+            font-size: 20px;
+            margin-top: 0;
+            border-bottom: 1px solid #FFB000;
+            padding-bottom: 5px;
+            text-transform: uppercase;
+        }
+
+        .cs-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cs-menu li {
+            padding: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Efeito de passar o mouse clássico (Inverter cores) */
+        .cs-menu li:hover {
+            background-color: #FFB000;
+            color: #1E2319;
+        }
+
+        .cs-menu li span {
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cs-menu">
+        <h1>Menu de Comando</h1>
+        <ul>
+            <li><span>1.</span> Entrar no Jogo</li>
+            <li><span>2.</span> Opções</li>
+            <li><span>3.</span> Inventário</li>
+            <li><span>4.</span> Sair</li>
+        </ul>
+    </div>
+
+</body>
+</html>
